@@ -1,0 +1,33 @@
+/*style.css*/
+body {
+    position: relative;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+#section1 {
+    padding-top:50px;
+    height:500px;color: #fff;
+    background-color:#FFCC80;
+}
+  #section2 {
+    padding-top:50px;
+    height:500px;
+    color: #fff;
+    background-color: #FFA726;
+  }
+  #section3 {
+    padding-top:50px;
+    height:500px;
+    color: #fff;
+    background-color: #FFCC80;
+  }
+  #section41 {
+    padding-top:50px;
+    height:500px;
+    color: #fff;
+    background-color: #FFA726;
+  }
+  #section42 {
+    padding-top:50px;
+    height:500px;color: #fff;
+    background-color: #FFCC80;
+  }
