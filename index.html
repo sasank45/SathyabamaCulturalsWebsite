@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -14,36 +15,34 @@
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
       <img class="img-responsive" src="http://www.sathyabama.ac.in/responsive/images/logo.jpg" alt="Sathyabama University Logo">
       <br>
-      <nav class="navbar navbar-inverse bg-light">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Sathyabama Culturals</a>
-        </div>
-        <div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-              <li><a href="#section1">About <i class="fa fa-info-circle "></i></a></li>
-              <li><a href="#section2">Spotlight <i class="fa fa-lightbulb-o "></i> </a></li>
-              <li><a href="#section3">Contact <i class="fa  fa-comments-o "></i></a></li>
-              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Gallery <i class="fa fa-picture-o"></i><span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#section41">2018</a></li>
-                  <li><a href="#section42">2017</a></li>
-                </ul>
-              </li>
-            </ul>
+      <div class="w3-bar w3-blue custom-nav">
+          <a class="w3-bar-item w3-button" href="#">About</a>
+          <div class="w3-dropdown-hover">
+              <button class="w3-button w3-blue">Spotlight</button>
+              <div class="w3-dropdown-content w3-bar-block w3-border">
+                <a href="#" class="w3-bar-item w3-button">Events</a>
+                <a href="#" class="w3-bar-item w3-button">Guests of Honour</a>
+              </div>
           </div>
-        </div>
+          <a class="w3-bar-item w3-button" href="#">Contact Us</a>
+          <div class="w3-dropdown-hover">
+              <button class="w3-button w3-blue">Gallery</button>
+              <div class="w3-dropdown-content w3-bar-block w3-border">
+                <a href="#" class="w3-bar-item w3-button">Culturals 2018</a>
+                <a href="#" class="w3-bar-item w3-button">Culturals 2017</a>
+                <a href="#" class="w3-bar-item w3-button">More</a>
+              </div>
+          </div>
+          <div class="w3-dropdown-hover">
+              <button class="w3-button w3-blue">Register</button>
+              <div class="w3-dropdown-content w3-bar-block w3-border">
+                <a href="#" class="w3-bar-item w3-button">1st years</a>
+                <a href="#" class="w3-bar-item w3-button">2nd Years</a>
+                <a href="#" class="w3-bar-item w3-button">3rd Years</a>
+              </div>
+          </div>
       </div>
-    </nav>
-    <marquee>
-        <i class= "fa fa-circle"></i><a href="#"> Announcement 1 Lorem ipsum dolor sit amet.</a><i class= "fa fa-circle"></i><a href="">  Announcement 2 Lorem ipsum dolor sit amet.</a><i class= "fa fa-circle"></i><a href="#"> Announcement 4 Lorem ipsum dolor sit amet.</a>
-    </marquee>
+
   <diV id="myCarousel" class="carousel slide" data-ride="carousel">
 
       <ol class="carousel-indicators">
@@ -78,32 +77,45 @@
        </a>
    </diV>
 
+   <div class="w3-container w3-padding-32 w3-theme-d1">
+<h1>Highlights</h1>
+</div>
 
+<div class="w3-row-padding w3-theme">
 
-<div id="section1" class="container-fluid">
-  <h1 class="text-center">About</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ducimus magnam sit quasi incidunt optio praesentium quis, asperiores nisi maxime!</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident labore earum, laborum unde facilis cum, expedita distinctio nisi minima accusamus.</p>
+        <div class="w3-third w3-section">
+            <div class="w3-card-4">
+            <img src="images/comingsoon1.png" style="width:100%">
+            <div class="w3-container w3-white">
+            <h4>Courtesy</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos in doloribus maiores repellat culpa quas ex, consectetur perspiciatis aliquid. Inventore!</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="w3-third w3-section">
+            <div class="w3-card-4">
+            <img src="images/comingsoon1.png" style="width:100%">
+            <div class="w3-container w3-white">
+              <h4>Events</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus sapiente, laboriosam alias aut. In ratione enim, eveniet voluptates illo error.</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="w3-third w3-section">
+            <div class="w3-card-4">
+            <img src="images/comingsoon1.png" style="width:100%">
+            <div class="w3-container w3-white">
+              <h4>Guests</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, et, numquam. Corporis vero eius numquam itaque ea explicabo reiciendis. Quas!</p>
+            </div>
+            </div>
+            <br><br><br>
+        </div>
 </div>
-<div id="section2" class="container-fluid">
-  <h1 class="text-center">Spotlight</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ducimus magnam sit quasi incidunt optio praesentium quis, asperiores nisi maxime!</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident labore earum, laborum unde facilis cum, expedita distinctio nisi minima accusamus.</p>
-</div>
-<div id="section3" class="container-fluid">
-  <h1 class="text-center">Contact</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ducimus magnam sit quasi incidunt optio praesentium quis, asperiores nisi maxime!</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident labore earum, laborum unde facilis cum, expedita distinctio nisi minima accusamus.</p>
-</div>
-<div id="section41" class="container-fluid">
-  <h1 class="text-center">Culturals 2018 Gallery</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ducimus magnam sit quasi incidunt optio praesentium quis, asperiores nisi maxime!</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident labore earum, laborum unde facilis cum, expedita distinctio nisi minima accusamus.</p>
-</div>
-<div id="section42" class="container-fluid">
-  <h1 class="text-center">Culturals 2017 Gallery</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ducimus magnam sit quasi incidunt optio praesentium quis, asperiores nisi maxime!</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident labore earum, laborum unde facilis cum, expedita distinctio nisi minima accusamus.</p>
-</div>
+    <footer class="footer">
+      <span class="text-muted">Copyrights <i class="fa fa-copyright"></i> Sathyabama Institute of Science and Technology</span>
+    </footer>
   </body>
 </html>

@@ -3,31 +3,16 @@ body {
     position: relative;
     font-family: 'IBM Plex Sans', sans-serif;
   }
-#section1 {
-    padding-top:50px;
-    height:500px;color: #fff;
-    background-color:#FFCC80;
+.custom-nav{
+  margin-top: -22px;
+  color: #455A64;
 }
-  #section2 {
-    padding-top:50px;
-    height:500px;
-    color: #fff;
-    background-color: #FFA726;
-  }
-  #section3 {
-    padding-top:50px;
-    height:500px;
-    color: #fff;
-    background-color: #FFCC80;
-  }
-  #section41 {
-    padding-top:50px;
-    height:500px;
-    color: #fff;
-    background-color: #FFA726;
-  }
-  #section42 {
-    padding-top:50px;
-    height:500px;color: #fff;
-    background-color: #FFCC80;
-  }
+.footer{
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #455A64;
+   color: black;
+   text-align: center;
+}
