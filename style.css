@@ -1,0 +1,14 @@
+.techfont{
+  font-family: 'Noto Serif', serif;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+
+}
+
+.navbar{
+    background-color: #f4b042;
+}
+.footer{
+  background-color: #d7efef;
+  text-decoration-color: #f4f9f9;
+}
